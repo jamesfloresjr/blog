@@ -100,9 +100,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: jamesfloresjr/jamesfloresjr.github.io            # <gh-username>/<repo>
-    repo_id: 'R_kgDOIE3-NQ'
+    repo_id: 'R_kgDOIGlEwg'
     category: 'Announcements'
-    category_id: 'DIC_kwDOIE3-Nc4CRsik'
+    category_id: 'DIC_kwDOIGlEws4CRuin'
     mapping:               # optional, default to 'pathname'
     input_position: 'top'  # optional, default to 'bottom'
     lang:                  # optional, default to the value of `site.lang`
