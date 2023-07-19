@@ -4,10 +4,10 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-![dommy](/assets/img/domino1.png){: width="50%" height="50%" .right}
+![dommy](/assets/img/domino1.png){: width="50%" height="50%" .w-50 .right}
 I'm an Air Force veteran, programmer, and Systems Engineer. I like to tinker and create little projects for myself. Hoping to show my progress through my blogs and hopefully help someone who randomly comes across my page. Most of my coding is done in PowerShell but I'm also proficient in Python, JavaScript, and Java.
 
-![dommy](/assets/img/domino2.png){: width="45%" height="45%" .left}
+![dommy](/assets/img/domino2.png){: width="45%" height="45%" .w-50 .left}
 In my free time I'm usually on Code Golf trying to solve as many questions as I can. If you want to check out some of my answers, you can [here](https://codegolf.stackexchange.com/users/117359/james-flores?tab=answers). I'm also currently working towards my B.S. in Cloud Computing at Western Governors University.
 
 My hobbies include watching TV, disc golf, playing games, and bowling. My dad got me into disc golf and it's way harder than I expected.
