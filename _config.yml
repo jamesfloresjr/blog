@@ -23,7 +23,7 @@ timezone: America/Chicago
 
 title: James Flores                          # the main title
 
-tagline: I like to code   # it will display as the sub-title
+tagline: Systems Engineer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   I like to code
@@ -44,7 +44,7 @@ social:
   email: contact@jamesflores.dev             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/jamesfloresjr
+    - https://github.com/jamesfloresjr
     - https://github.com/jamesfloresjr       # change to your github homepage
     # Uncomment below to add more social links
     # - https://twitter.com/username         # change to your twitter homepage
