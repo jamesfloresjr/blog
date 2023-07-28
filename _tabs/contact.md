@@ -11,4 +11,4 @@ order: 5
   <button type="submit">Send</button>
 </form>
 
-<link rel="stylesheet" href="/assets/other/form.css">
+<link rel="stylesheet" href="/styles/form.css">
