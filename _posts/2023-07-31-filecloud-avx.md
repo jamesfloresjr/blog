@@ -6,13 +6,18 @@ tags: [proxmox, filecloud, mongodb, avx]
 image: /assets/images/banners/filecloud.png
 ---
 ## Issue
+MongoDB fails to connect because of incompatible CPU.
+
+## Why?
 The most likely reason for this error is actually on the installation guide.
 
 ![MongoDB AVX Warning](/assets/images/posts/filecloud-avx/mongo-avx.png)
 
 Generally, CPUs with the commercial denomination "Core i3/i5/i7" support AVX, whereas "Pentium" and "Celeron" CPUs don't. AMD: Jaguar-based processors and newer. The supported CPUs are listed [here](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#CPUs_with_AVX).
 
-## Fix #1
+## Fixes
+
+### Change to host CPU
 - SSH into your Proxmox node
 - Run the below command to see if your CPU has the AVX instruction set
 
@@ -33,5 +38,5 @@ If the output is like below then your CPU supports AVX. If not, don't fret, I'll
 
 After that you should be good to go! Go ahead and try to install again.
 
-## Fix #2
+### Change to a compatible CPU
 Instead of changing the processor to `host`, scroll through the list and find a compatible CPU. Shutdown and reboot.
