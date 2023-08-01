@@ -1,0 +1,37 @@
+---
+title: FileCloud - "MongoDB connection failed."
+date: 2023-07-31 15:01 -0500
+categories: [Home Lab, Errors]
+tags: [proxmox, filecloud, mongodb, avx]
+image: /assets/images/banners/filecloud.png
+---
+## Issue
+The most likely reason for this error is actually on the installation guide.
+
+![MongoDB AVX Warning](/assets/images/posts/filecloud-avx/mongo-avx.png)
+
+Generally, CPUs with the commercial denomination "Core i3/i5/i7" support AVX, whereas "Pentium" and "Celeron" CPUs don't. AMD: Jaguar-based processors and newer. The supported CPUs are listed [here](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#CPUs_with_AVX).
+
+## Fix #1
+- SSH into your Proxmox node
+- Run the below command to see if your CPU has the AVX instruction set
+
+```bash
+lscpu | grep -i avx
+```
+
+If the output is like below then your CPU supports AVX. If not, don't fret, I'll explain another solution later.
+
+![AVX Command on Proxmox node](/assets/images/posts/filecloud-avx/node-command.png)
+
+- Go back to your Proxmox web console
+- Click `100 (your-vm-name) \ Hardware \ Processors \ Edit` and change the type to `host`
+
+![Change Processors Type](/assets/images/posts/filecloud-avx/processors-change-type.png)
+
+- Shutdown VM and reboot
+
+After that you should be good to go! Go ahead and try to install again.
+
+## Fix #2
+Instead of changing the processor to `host`, scroll through the list and find a compatible CPU. Shutdown and reboot.
