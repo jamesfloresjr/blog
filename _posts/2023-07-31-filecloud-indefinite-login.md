@@ -3,7 +3,7 @@ title: FileCloud - Login loads indefinitely
 date: 2023-07-31 21:04 -0500
 categories: [Home Lab, Errors]
 tags: [filecloud, login, https]
-image: /assets/images/banners/filecloud.png
+image: /assets/img/banners/filecloud.png
 ---
 ## Issue
 When logging into the admin console for the first time, the login loads indefinitely.
