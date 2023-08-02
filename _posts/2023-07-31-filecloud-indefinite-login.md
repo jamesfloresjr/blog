@@ -12,12 +12,10 @@ When logging into the admin console for the first time, the login loads indefini
 This `TONIDOCLOUD_SECURE_COOKIE` setting is turned on by default without ever being configured for HTTPS. You might've seen this error on your `Extended Checks` page and brushed it off as nothing like I did.
 
 ## Fix
-Edit the `cloudconfig.php` file located at `/var/www/html/config/`.
+Edit the `cloudconfig.php` file located at `/var/www/html/config/`{: .filepath}.
 
 ```bash
-cd /var/www/html/config/
-
-sudo vi cloudconfig.php
+sudo vi /var/www/html/config/cloudconfig.php
 ```
 
 Once in the file, press `/` to search, type `SECURE_COOKIE` to find the line, then press the `Enter` key. Press `i` to edit and scroll over to change the `1` to a `0`. Press the `Esc` key and type `:wq` to write to the file. Reload the admin console and try to login again.
