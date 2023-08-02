@@ -57,3 +57,9 @@ I like to remove the Ubuntu ISO by navigating to the `Hardware` tab and setting 
 Last step is to configure Cloud-Init. Navigate to the `Hardware` tab and add a `CloudInit Drive`. Next go to the `Cloud-Init` tab and add your default user/password as well as your public SSH key. Once complete, click `Regenerate Image`.
 
 ![Cloud Init](/assets/img/posts/20230802/config-cloud-init.gif)
+
+## Post Deployment
+After cloning for the first time, you'll need to change your hostname. Edit the two files below and reboot.
+
+- `/etc/hostname`{: .filepath}
+- `/etc/hosts`{: .filepath}
