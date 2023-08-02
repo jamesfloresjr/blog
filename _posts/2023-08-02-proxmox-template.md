@@ -8,7 +8,7 @@ image: /assets/img/banners/proxmox.png
 ## Setup
 Setup a server of your choice. The commands in this tutorial will be for Ubuntu Server 22.04 but the steps should be the same. Here are the specifications I use for my templates.
 
-> You cannot decrease the hard disk so choose something low (20-50 GBs)
+> You cannot decrease the hard disk so choose something low (20-50 GBs). You can increase after cloning.
 {: .prompt-info }
 
 - Disks
