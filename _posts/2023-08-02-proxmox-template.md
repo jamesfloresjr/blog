@@ -58,8 +58,8 @@ Last step is to configure Cloud-Init. Navigate to the `Hardware` tab and add a `
 
 ![Cloud Init](/assets/img/posts/20230802/config-cloud-init.gif)
 
-## Post Deployment
-After cloning for the first time, you'll need to change your hostname. Edit the two files below and reboot.
+## Cloning
+After cloning, you'll need to change your hostname. Edit the two files below and reboot.
 
 - `/etc/hostname`{: .filepath}
 - `/etc/hosts`{: .filepath}
