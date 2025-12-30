@@ -5,7 +5,7 @@ categories: [Home Lab, Tutorial]
 tags: [portainer, docker, watchtower, ubuntu server]
 image: /assets/img/banners/watchtower.png
 ---
-## TLDR
+## TL;DR
 To have watchtower monitor a remote Docker endpoint you first need to enable TCP port 2375 for external connection.
 
 ## Remote Host

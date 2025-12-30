@@ -101,7 +101,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: jamesfloresjr/blog.jamesflores.dev       # <gh-username>/<repo>
+    repo: jamesfloresjr/blog       # <gh-username>/<repo>
     repo_id: 'R_kgDOIGlEwg'
     category: 'Announcements'
     category_id: 'DIC_kwDOIGlEws4CRuin'
