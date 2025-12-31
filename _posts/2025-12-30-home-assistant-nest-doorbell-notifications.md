@@ -9,6 +9,9 @@ image: /assets/img/banners/ha_nest.png
 
 I figured out how to embed a GIF from a Nest Doorbell into a Home Assistant notification, even though ChatGPT said it could not be done.
 
+{% include embed/youtube.html id='pCAHibCcpcA' %}
+[Watch the video](https://www.youtube.com/watch?v=pCAHibCcpcA)
+
 ## Prerequisites
 
 - A working **Home Assistant** installation
