@@ -68,12 +68,7 @@ Add the following entries, replacing `<id>` with the folder ID you copied earlie
 ```yaml
 # Custom settings
 shell_command:
-  make_latest_nest_gif: >
-    cd "/config/nest/event_media/<id>" &&
-    ffmpeg -y
-    -i "$(ls -t *.mp4 2>/dev/null | head -n 1)"
-    -vf "fps=12,scale=640:-1:flags=lanczos"
-    "/config/www/nest_events/latest_nest_event.gif"
+  make_latest_nest_gif: 'cd "/config/nest/event_media/<id>" && ffmpeg -y -i "$(ls -t *.mp4 2>/dev/null | head -n 1)" -vf "fps=12,scale=640:-1:flags=lanczos" "/config/www/nest_events/latest_nest_event.gif"'
 
 homeassistant:
   allowlist_external_dirs:
