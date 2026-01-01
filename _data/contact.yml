@@ -4,13 +4,13 @@
   type: github
   icon: 'fab fa-github'
 -
+  type: youtube
+  icon: 'fab fa-youtube'
+  url:  'https://youtube.com/@jamesfloresjr'
+-
   type: linkedin
   icon: 'fab fa-linkedin'
   url: 'https://linkedin.com/in/jamesfloresjr'
--
-  type: stack-overflow
-  icon: 'fab fa-stack-overflow'
-  url:  'https://stackoverflow.com/users/21281198/james-flores'                  # Fill with your stackoverflow homepage
 -
   type: rss
   icon: 'fas fa-rss'

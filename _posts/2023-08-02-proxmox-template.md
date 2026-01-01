@@ -4,7 +4,9 @@ date: 2023-08-02 08:44 -0500
 categories: [Home Lab, Tutorial]
 tags: [proxmox, linux, ubuntu server]
 image: /assets/img/banners/proxmox.png
+description: Tired of creating VMs from scratch? Learn how to create a Ubuntu Server template so you never have to again.
 ---
+
 ## Setup
 Setup a server of your choice. The commands in this tutorial will be for Ubuntu Server 22.04 but the steps should be the same. Here are the specifications I use for my templates.
 

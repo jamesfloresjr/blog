@@ -4,7 +4,9 @@ date: 2023-07-31 15:01 -0500
 categories: [Home Lab, Errors]
 tags: [proxmox, filecloud, mongodb, avx]
 image: /assets/img/banners/filecloud.png
+description: Fix the 'Incompatible CPU' error during FileCloud installation. A step-by-step guide to configuring your environment for older CPUs or virtualized setups.
 ---
+
 ## Issue
 MongoDB fails to connect because of incompatible CPU.
 

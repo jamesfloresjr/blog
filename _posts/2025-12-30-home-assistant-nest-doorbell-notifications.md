@@ -1,9 +1,10 @@
 ---
 title: Home Assistant - Nest Doorbell Notifications
 date: 2025-12-30 06:08 -0500
-categories: [Home Lab, Home Assistant, Tutorial]
+categories: [Home Lab, Tutorial]
 tags: [home assistant, nest]
 image: /assets/img/banners/ha_nest.png
+description: I figured out how to embed a GIF from a Nest Doorbell into a Home Assistant notification, even though ChatGPT said it could not be done.
 ---
 ## TL;DR
 

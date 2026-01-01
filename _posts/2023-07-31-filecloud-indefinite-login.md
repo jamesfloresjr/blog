@@ -4,7 +4,9 @@ date: 2023-07-31 21:04 -0500
 categories: [Home Lab, Errors]
 tags: [filecloud, login, https]
 image: /assets/img/banners/filecloud.png
+description: Fix the FileCloud admin login hang by disabling the SECURE_COOKIE setting in cloudconfig.php when HTTPS is not yet configured.
 ---
+
 ## Issue
 When logging into the admin console for the first time, the login loads indefinitely.
 

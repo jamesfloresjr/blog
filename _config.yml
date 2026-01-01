@@ -23,13 +23,14 @@ timezone: America/Chicago
 
 title: James Flores                          # the main title
 
-tagline: Systems Engineer   # it will display as the sub-title
+tagline: For my future self (and you)   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  I like to code
+  A technical blog exploring homelab automation, cybersecurity, and systems 
+  engineering. Practical guides for Proxmox, Docker, and efficient scripting.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://blog.jamesflores.dev"
+url: "https://jflores.blog"
 plugins:
   - jekyll-sitemap
 
